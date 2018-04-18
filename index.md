@@ -167,7 +167,7 @@ title: Hyperspace by HTML5 UP
 					<li>
 						<h3>Social</h3>
 						<ul class="icons">
-							<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.twitter.com/jaymfernandes" class="fa-twitter"><span class="label">Twitter</span></a></li>
 						</ul>
 					</li>
 				</ul>
