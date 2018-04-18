@@ -61,6 +61,20 @@ title: Hyperspace by HTML5 UP
 			</div>
 		</div>
 	</section>
+	<section>
+		<a href="javascript:;" class="image"><img src="images/clients.jpg" alt="" data-position="25% 25%" /></a>
+		<div class="content">
+			<div class="inner">
+				<h2>Our Clients</h2>
+				<p>We're working on a lot of interesting games with some pretty cool people! </p>
+				<ul>
+					<li><a href="fullbrig.ht"> <b>Fullbright</b></a> : Steam PC Update for Gone Home (QA)</li>
+					<li><a href="www.talegames.com"> <b>Talegames</b></a> : Faeland Demo (Music)</li>
+					<li><b>Unannounced Projects</b></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </section>
 
 <!-- Two -->
