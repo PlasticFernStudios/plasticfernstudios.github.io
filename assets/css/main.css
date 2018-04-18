@@ -1721,10 +1721,10 @@
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #26A69A, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #26A69A, #b74e91);
-				background-image: -ms-linear-gradient(to right, #26A69A, #b74e91);
-				background-image: linear-gradient(to right, #26A69A, #b74e91);
+				background-image: -moz-linear-gradient(to right, #00796B, #B2DFDB);
+				background-image: -webkit-linear-gradient(to right, #00796B, #B2DFDB);
+				background-image: -ms-linear-gradient(to right, #00796B, #B2DFDB);
+				background-image: linear-gradient(to right, #00796B, #B2DFDB);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3791,7 +3791,7 @@
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #212121;
 			}
 
 				#sidebar nav a.active:after {

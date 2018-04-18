@@ -23,6 +23,7 @@ title: Hyperspace by HTML5 UP
 <!-- Intro -->
 <section id="intro" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
+		<a href="javascript:;" class="image"><img src="images/logo.png" alt="plastic fern studios logo" data-position="center center" /></a>
 		<h1>Plastic Fern Studios</h1>
 		<p>We offer QA, UX, Audio, and Management services to help make your videogame the best it can be and allow you to focus on doing what you need to do</p>
 		<ul class="actions">
@@ -34,7 +35,7 @@ title: Hyperspace by HTML5 UP
 <!-- One -->
 <section id="one" class="wrapper style2 spotlights">
 	<section>
-		<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+		<a href="javascript:;" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Development Services You Need</h2>
@@ -46,7 +47,7 @@ title: Hyperspace by HTML5 UP
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+		<a href="javascript:;" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>Experience You Deserve</h2>
@@ -58,7 +59,7 @@ title: Hyperspace by HTML5 UP
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+		<a href="javascript:;" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 		<div class="content">
 			<div class="inner">
 				<h2>We're Here to Help</h2>
