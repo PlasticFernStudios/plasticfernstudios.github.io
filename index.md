@@ -58,7 +58,7 @@ title: Hyperspace by HTML5 UP
 		<div class="content">
 			<div class="inner">
 				<h2>We're Here to Help</h2>
-				<p>Our passion for our work and the player's experience is the driving force in helping you achieve your game’s full vision. Our services currently include QA, UX, console release consults, project management, and all things related to audio including SFX, music production, and implementation.</p>
+				<p>Our passion for our work and the player's experience is the driving force in helping you achieve your game’s full vision. Our services currently include QA, UX, Accessibility, console release consults, project management, and all things related to audio including SFX, music production, and implementation.</p>
 			</div>
 		</div>
 	</section>
@@ -100,9 +100,9 @@ title: Hyperspace by HTML5 UP
 				<span class="icon major fa-gamepad"></span>
 				<h3>UX/Accessibility</h3>
 				<ul>
-					<li>Have a professional researcher help determine any possible issues with how a player interacts, understands, or generally enjoys your game</li>
+					<li>Have a professional help determine any possible issues with how a player interacts, understands, or generally enjoys your game</li>
 					<li>Accessibility feedback to make sure your game is on the right track with considerations for cognitive disabilities, low or no-vision, auditory considerations, or other factors</li>
-					<li>We offer Design, UX, + QA consults to make sure users experience the game how you want them to</li>
+					<li>We offer Design, UX, Accessibility, + QA consults to make sure users experience the game how you want them to</li>
 					<li>We can help playtest, survey, and study how users play your game then turn it into useful and actionable information for you</li>
 				</ul>
 			</section>
