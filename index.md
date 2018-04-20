@@ -119,7 +119,7 @@ title: Hyperspace by HTML5 UP
 				<span class="icon major fa-headphones"></span>
 				<h3>Music</h3>
 				<ul>
-					<li>Custom made or licensable music for you videogame, website, or trailer</li>
+					<li>Custom made or licensable music for your videogame, website, or trailer</li>
 					<li>No matter the genre, we can help make something amazing sounding to fit the direction and feel of your experience</li>
 					<li>Whether a short loop or custom music system, we have the technical knowledge to help</li>
 				</ul>
