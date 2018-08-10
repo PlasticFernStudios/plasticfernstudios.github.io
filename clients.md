@@ -1,30 +1,7 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-<head>
-	<title>Plastic Fern Studios</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie8.css" /><![endif]-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117711609-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-117711609-1');
-</script>
-
-</head>
-<body>
+---
+layout: default
+title: Hyperspace by HTML5 UP
+---
 
 <!-- Sidebar -->
 <section id="sidebar">
@@ -53,7 +30,7 @@
 		</div>
 	</section>
 	<section>
-		<a><img src="images/salt.jpg" alt="" data-position="center center" /></a>
+		<a><img src="images/Salt.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
 				<a href="https://www.nintendo.com/games/detail/salt-and-sanctuary-switch"><h2>Salt and Sanctuary by Ska Studios</h2></a>
@@ -141,25 +118,3 @@
 </section>
 
 </div>
-
-
-
-<!-- Footer -->
-<footer id="footer" class="wrapper style1-alt">
-	<div class="inner">
-		<ul class="menu">
-			<li>&copy; Plastic Fern Studios LLC. 2018. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
-	</div>
-</footer>
-
-<!-- Scripts -->
-<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
-<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
-<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
-<script src="http://localhost:4000/assets/js/skel.min.js"></script>
-<script src="http://localhost:4000/assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="http://localhost:4000/assets/js/main.js"></script>
-</body>
-</html>
