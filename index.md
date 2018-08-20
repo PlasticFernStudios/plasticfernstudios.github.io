@@ -41,7 +41,7 @@ title: Hyperspace by HTML5 UP
 			<div class="inner">
 				<h1>Who We Are</h1>
 				<h2>Development Services You Need</h2>
-				<p>We are Plastic Fern Studios, a development and dev services studio based in San Diego! We help indies succeed in crafting their experiences for players while also developing our own unique games.</p>
+				<p>We are Plastic Fern Studios, an indie development and dev services studio based in San Diego! We help indies succeed in crafting their experiences for players while also developing our own unique games.</p>
 			</div>
 		</div>
 	</section>
@@ -50,7 +50,7 @@ title: Hyperspace by HTML5 UP
 		<div class="content">
 			<div class="inner">
 				<h2>Experience You Deserve</h2>
-				<p>Plastic Fern Studios was started by Jay Fernandes, a manager, QA, and audio professional with over 8 years industry experience and 30+ shipped titles. Our team members' past experience can be seen in projects created by The Behemoth, Supergiant Games, Campo Santo, Fullbright, Edmund McMillen, and many others.</p>
+				<p>Plastic Fern Studios was started by Jay Fernandes, a manager, indie QA, and audio professional with over 8 years industry experience and 30+ shipped titles. Our team members' past experience can be seen in projects created by The Behemoth, Supergiant Games, Campo Santo, Fullbright, Edmund McMillen, and many others.</p>
 			</div>
 		</div>
 	</section>

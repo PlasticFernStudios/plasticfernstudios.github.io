@@ -3026,6 +3026,7 @@
 			border-radius: 0;
 			display: block;
 			position: relative;
+			align-items: center;
 			width: 25em;
 		}
 
