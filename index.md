@@ -71,6 +71,7 @@ title: Hyperspace by HTML5 UP
 				<ul>
 					<li><a href="https://www.klei.com/games/mark-ninja"> <b>Klei Entertainment</b></a> : PS4™, Xbox One, Nintendo Switch, Steam Testing (QA)</li>
 					<li><a href="https://www.nintendo.com/games/detail/salt-and-sanctuary-switch"> <b>Ska Studios</b></a> : Nintendo Switch Testing (QA/Lotcheck)</li>
+					<li><a href="https://spacemacegames.com/"> <b>Space Mace Games</b></a> : Joggernauts Nintendo Switch Testing (Lotcheck)</li>
 					<li><a href="http://fullbrig.ht"> <b>Fullbright</b></a> : Steam PC Update for Gone Home (QA)</li>
 					<li><a href="http://www.talegames.com"> <b>Talegames</b></a> : Faeland Demo (Music)</li>
 					<li><b>Unannounced Projects for Switch, PS4™, Xbox One, and Steam! (Releasing 2018)</b></li>
