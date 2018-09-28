@@ -57,7 +57,6 @@ title: Hyperspace by HTML5 UP
 		</div>
 	</section>
 	<section>
-	<section>
 		<a><img src="images/gonehome.jpg" alt="" data-position="25% 25%" /></a>
 		<div class="content">
 			<div class="inner">
