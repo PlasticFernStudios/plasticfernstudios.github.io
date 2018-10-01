@@ -48,6 +48,15 @@ title: Hyperspace by HTML5 UP
 		</div>
 	</section>
 	<section>
+		<a><img src="images/Transistor.jpg" alt="" data-position="center center" /></a>
+		<div class="content">
+			<div class="inner">
+				<a href="https://www.nintendo.com/games/detail/transistor-switch"><h2>Transistor by Supergiant Games</h2></a>
+				<p>Functional and Lotcheck QA testing on Nintendo Switch for this sci-fi themed action RPG that invites you to wield an extraordinary weapon of unknown origin as you fight through a stunning futuristic city.</p>
+			</div>
+		</div>
+	</section>
+	<section>
 		<a><img src="images/joggernauts.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
