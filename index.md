@@ -12,7 +12,7 @@ title: Hyperspace by HTML5 UP
 				<li><a href="#one">Who we are</a></li>
 				<li><a href="#two">What we do</a></li>
 				<li><a href="#three">Get in touch</a></li>
-				<li><a href="http://www.plasticfernstudios.com/clients">Our Clients</a></li>
+				<li><a href="#four">Our Clients</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -26,7 +26,10 @@ title: Hyperspace by HTML5 UP
 	<div class="inner">
 		<a><img src="images/logo.png" alt="plastic fern studios logo" data-position="center center" /></a>
 		<h1>Plastic Fern Studios</h1>
-		<p>We offer QA, UX, Audio, and Management services so you can focus on what you love about game development</p>
+		<p>We’re experts in what you need to release your game.</p>
+		<p></p>
+		<p>From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game.
+</p>
 		<ul class="actions">
 			<li><a href="#one" class="button scrolly">Learn more</a></li>
 		</ul>
@@ -39,9 +42,8 @@ title: Hyperspace by HTML5 UP
 		<a><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 		<div class="content">
 			<div class="inner">
-				<h1>Who We Are</h1>
 				<h2>Development Services You Need</h2>
-				<p>We are Plastic Fern Studios, an indie development and dev services studio based in San Diego! We help indies succeed in crafting their experiences for players while also developing our own unique games.</p>
+				<p>We are Plastic Fern Studios, an indie development and dev services studio based in San Diego! We help studios succeed in releasing their games and navigating those processes.</p>
 			</div>
 		</div>
 	</section>
@@ -50,7 +52,7 @@ title: Hyperspace by HTML5 UP
 		<div class="content">
 			<div class="inner">
 				<h2>Experience You Deserve</h2>
-				<p>Plastic Fern Studios was started by Jay Fernandes, a manager, indie QA, and audio professional with over 8 years industry experience and 30+ shipped titles. Our team members' past experience can be seen in projects created by The Behemoth, Supergiant Games, Campo Santo, Fullbright, Edmund McMillen, and many others.</p>
+				<p>Plastic Fern Studios was started by Jay Fernandes, with everyone having over 10 years industry experience and 30+ shipped titles. Our team members' past experience can be seen in projects created by The Behemoth, Supergiant Games, Campo Santo, Fullbright, Edmund McMillen, and many others.</p>
 			</div>
 		</div>
 	</section>
@@ -59,26 +61,22 @@ title: Hyperspace by HTML5 UP
 		<div class="content">
 			<div class="inner">
 				<h2>We're Here to Help</h2>
-				<p>Our passion for our work and the player's experience is the driving force in helping you achieve your game’s full vision. Our services currently include QA, UX, Accessibility, console release consults, project management, and all things related to audio including SFX, music production, and implementation.</p>
+				<p>Our passion for our work and the player's experience is the driving force in helping you achieve your game’s full vision. Our services currently include Porting, Release Management, QA, and all things related to audio including SFX, music production, and implementation.</p>
 			</div>
 		</div>
 	</section>
+	<section id="four" class="wrapper style2 spotlights">
 	<section>
-		<a><img src="images/clients2.jpg" alt="" data-position="25% 25%" /></a>
+		<a><img src="images/PreviousGamesweWorkedOn.jpg" alt="" data-position="25% 25%" /></a>
 		<div class="content">
 			<div class="inner">
-				<p>We're working on a lot of interesting games with some pretty cool people! </p>
+				<h2>Our Clients</h2>
+				<p>We love working on great games with great teams! See what they have to say about us: </p>
 				<ul>
-					<li><a href="https://www.klei.com/games/mark-ninja"> <b>Klei Entertainment</b></a>: Mark of the Ninja: Remastered - PS4™, Xbox One, Nintendo Switch, Steam Testing (QA)</li>
-					<li><a href="https://www.nintendo.com/games/detail/salt-and-sanctuary-switch"> <b>Ska Studios</b></a>: Salt and Sanctuary - Nintendo Switch Testing (QA/Lotcheck)</li>
-					<li><a href="https://www.nintendo.com/games/detail/transistor-switch"> <b>Supergiant Games</b></a>: Transistor - Nintendo Switch Testing (QA/Lotcheck)</li>
-					<li><a href="https://spacemacegames.com/"> <b>Space Mace Games</b></a>: Joggernauts - Nintendo Switch Testing (Lotcheck)</li>
-					<li><a href="http://fullbrig.ht"> <b>Fullbright</b></a>: Gone Home - Steam PC Update (QA)</li>
-					<li><a href="http://www.talegames.com"> <b>Talegames</b></a>: Faeland - Music for Kickstarter Demo</li>
-					<br>
-					<ul class="actions">
-						<li><a href="http://www.plasticfernstudios.com/clients" class="button scrolly">See More Clients</a></li>
-					</ul>
+				<li>The Plastic Fern folks are amazingly thorough, precise, and flexible. We've been super impressed! <b>- Jamie Cheng, Founder, Klei Entertainment</b></li>
+					<li>We worked with Plastic Fern Studios at the end of EarthNight’s dev process and really wish we had known about them sooner. They helped us port to Switch, finalize PlayStation 4 and Steam builds and optimize the entire game... they seemed like members of the team who had been working in the project for years after only a few weeks. On top of clearly being technical wizards, the team was a pleasure to work with. We will unquestionably be using their services for future projects. <b>-Rich Siegel, Founder, Cleaversoft</b>
+</li>
+					<li>Plastic Fern provides highly experienced, intelligent, and responsive testers.  They jump right into the communication tools / databases our team uses and provide daily communication, giving our team with the support we need, on demand. <b>-Gavin Simon, Co-Founder, Supergiant Games</b></li>
 				</ul>
 			</div>
 		</div>
@@ -89,46 +87,43 @@ title: Hyperspace by HTML5 UP
 <section id="two" class="wrapper style3 fade-up">
 	<div class="inner">
 		<h1>What we do</h1>
-		<p>We offer a variety of services to help make sure the process of making your game is as painless as possible and that the end product is something users can play and enjoy. We pride ourselves on our ability to integrate into any workflow from pre-production to post-launch in order to help. Reach out to us if you need something not listed or have questions!</p>
+		<p>From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game. Reach out to us if you need something not listed or have questions!</p>
 		<div class="features">
 			<section>
-				<span class="icon major fa-bug"></span>
-				<h3>Quality Assurance</h3>
+				<span class="icon major fa-flag checkered"></span>
+				<h3>Release Management</h3>
 				<ul>
-					<li>PS4™, Xbox One, Nintendo Switch, and Steam PC Platforms</li>
-					<li>Functional testing to squash any crashes, graphics, or other issues</li>
-					<li>Console compliance testing for TRCs, XRs, and Lotcheck</li>
-					<li>We can help manage external teams, porting houses, internal teams or processes</li>
-					<li>Reports, bug database triage, risk assessments, and any other info you need to make the right decisions</li>
-					<li>Need your own QA team internally? Let us help setup your workflow + train your team</li>
+				<li>A step-by-step process to ensure you get through cert on almost any platform</li>
+					<li>Getting your build packaged and ready to pass compliance</li>
+					<li>A vast understanding of timelines and requirements</li>
+					<li>Saves you time, brainpower, and mistakes</li>
 				</ul>
 			</section>
 			<section>
 				<span class="icon major fa-gamepad"></span>
-				<h3>UX/Accessibility</h3>
+				<h3>Porting</h3>
 				<ul>
-					<li>Have a professional help determine any possible issues with how a player interacts, understands, or generally enjoys your game</li>
-					<li>Accessibility feedback to make sure your game is on the right track with considerations for cognitive disabilities, low or no-vision, auditory considerations, or other factors</li>
-					<li>We offer Design, UX, Accessibility, + QA consults to make sure users experience the game how you want them to</li>
-					<li>We can help playtest, survey, and study how users play your game then turn it into useful and actionable information for you</li>
+					<li>Programming and getting your build ready on almost any platform</li>
+					<li>A one-stop-shop integrated team</li>
+					<li>Meets and exceeds timelines to get you to your goal</li>
 				</ul>
 			</section>
 			<section>
-				<span class="icon major fa-volume-up"></span>
-				<h3>Sound Design</h3>
+				<span class="icon major fa-bug"></span>
+				<h3>QA</h3>
 				<ul>
-					<li>Custom sound effects (SFX) for your videogame, website, or trailer</li>
-					<li>Years of experience creating memorable and a unique soundscapes for games</li>
-					<li>Integration into engine using code or middleware into many popular engines (FMOD, Wwise, Unity, Unreal)</li>
+					<li>PS4™, Xbox One, Nintendo Switch, iOS, and Steam PC/Mac Platforms</li>
+					<li>Premium testing with a high quality bar</li>
+					<li>A diverse and experienced team that immerses themselves in you game for a more holistic perspective</li>
+					<li>Understanding and communicating deadlines, needs, and requirements for each platform</li>
 				</ul>
 			</section>
 			<section>
 				<span class="icon major fa-headphones"></span>
-				<h3>Music</h3>
+				<h3>Audio</h3>
 				<ul>
-					<li>Custom made or licensable music for your videogame, website, or trailer</li>
-					<li>No matter the genre, we can help make something amazing sounding to fit the direction and feel of your experience</li>
-					<li>Whether a short loop or custom music system, we have the technical knowledge to help</li>
+					<li>Our team deeply immerses ourselves in every project, looking at it from an integrated lens and giving you audio that fits your game's needs</li>
+					<li>A strong background in usability and game design, which ensures audio that enhances the player's experience</li>
 				</ul>
 			</section>
 		</div>
@@ -183,5 +178,3 @@ title: Hyperspace by HTML5 UP
 		</div>
 	</div>
 </section>
-
-</div>
