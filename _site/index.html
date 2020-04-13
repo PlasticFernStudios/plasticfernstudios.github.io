@@ -1,227 +1,590 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-<head>
-	<title>Plastic Fern Studios</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie8.css" /><![endif]-->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117711609-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-117711609-1');
-</script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Plastic Fern Studios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="description" content="We’re experts in what you need to release your game. From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game.">
+    <link rel="canonical" href="http://localhost:4000/">
 
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontstylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#2e2e2d">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
 
-<!-- Sidebar -->
-<section id="sidebar">
-	<div class="inner">
-		<nav>
-			<ul>
-				<li><a href="#intro">Welcome</a></li>
-				<li><a href="#one">Who we are</a></li>
-				<li><a href="#two">What we do</a></li>
-				<li><a href="#three">Get in touch</a></li>
-				<li><a href="#four">Our Clients</a></li>
-			</ul>
-		</nav>
-	</div>
+
+    <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"> <img class="headerlogo" src= "/assets/img/plastic_fern_studios_logo_for_light_bg-small.png" alt = "Plastic Fern Logo"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Dev Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clients">Our Clients</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="headerimage" src= "/assets/img/plant.jpg" width = 300px  alt = "Plastic Fern Logo">
+                </div>
+                <div class="col-lg-8">
+                  <div class="intro-heading">
+                    We’re experts in what you need to
+                  </div>
+                  <div class="intro-heading2">
+                    release your game.
+                  </div>
+                  <div class="intro-lead-in">From porting to release management, our experienced team provides personalized and premium
+                  skills, insights, and deliverables to demystify the process of launching your game.</div>
+                  <anim-box>
+                  <div id = "contactus" class="animated pulse">
+                    <a href="#contact" class="page-scroll btn-xl">Contact Us!</a>
+                  </div>
+                  </anim-box>
+                </div>
+                </div>
+            </div>
+          </div>
+    </header>
+
+
+<!--
+        
+          
+        
+          <a class="page-link" href="/audio/">Audio</a>
+        
+          <a class="page-link" href="/porting/">Porting</a>
+        
+          <a class="page-link" href="/quality-assurance/">Quality Assurance</a>
+        
+          <a class="page-link" href="/release-management/">Release Management</a>
+        
+          
+        
+          
+        
+          
+        
+ -->
+
+     <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Services</h2>
+                    <img src= "/assets/img/vine.png" height = 30px>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="row vertical-divider text-center style="margin-top: 30px">
+                <div class="col-md-3 servblock">
+                    <span id = "serv1" class="fa-stack fa-4x animated jello">
+                      <a href="/release-management/"><img class="servlogo" src= "/assets/img/release_management_icon.png" height = 120px></a>
+                    </span>
+                    <br>
+                    <br>
+                    <span class = "learnmore"><a href="/release-management/" class="btn-primary">Release Management</a></span>
+                    <br>
+                    <ul class="noindent servRM" style="list-style-type:none;">
+                      <li>A step-by-step process to ensure you get through cert on almost any platform</li>
+	                    <li>Getting your build packaged and ready to pass compliance</li>
+	                    <li>A vast understanding of timelines and requirements for most platforms</li>
+	                    <li>Saves you time, brainpower, and mistakes</li>
+                    </ul>
+                  </div>
+                <div class="col-md-3 servblock">
+                    <span id = "serv2" class="fa-stack fa-4x animated jello">
+                      <a href="/porting/"><img class="servlogo" src= "/assets/img/porting_icon.png" height = 120px href="#"></a>
+                    </span>
+                    <br>
+                    <br>
+                    <span class = "learnmore"><a href="/porting/" class="btn-primary">Porting</a></span>
+                    <br>
+                    <ul class="noindent servPO" style="list-style-type:none;">
+                      <li>Programming and getting your build ready on almost any platform</li>
+	                    <li>An integrated team with no outsourcing needed</li>
+	                    <li>Meets and exceeds timelines to get you to your goal</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 servblock">
+                    <span id = "serv3" class="fa-stack fa-4x animated jello">
+                      <a href="/quality-assurance/"><img class="servlogo" src= "/assets/img/qa_icon.png" height = 120px href="#"></a>
+                    </span>
+                    <br>
+                    <br>
+                    <span class = "learnmore"><a href="/quality-assurance/" class="btn-primary">Quality Assurance</a></span>
+                    <br>
+                    <ul class="noindent servQA" style="list-style-type:none;">
+                      <li>Premium testing with a high quality bar</li>
+	                    <li>A diverse and experienced team that immerses themselves in your game for a more holistic perspective</li>
+	                    <li>Understanding and communicating deadlines, needs, and requirements for each platform</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 servblock">
+                    <span id = "serv4" class="fa-stack fa-4x animated jello">
+                      <a href="/audio/"><img class="servlogo" src= "/assets/img/audio_icon.png" height = 120px href="#"></a>
+                    </span>
+                    <br>
+                    <br>
+                    <span class = "learnmore"><a href="/audio/" class="btn-primary">Audio</a></span>
+                    <br>
+                    <ul class="noindent servAU" style="list-style-type:none;">
+                      <li>Our team deeply immerses ourselves in every project, looking at it from an integrated lens and giving you audio that fits your game’s need.</li>
+	                    <li> A strong background in usability and game design, which ensures audio that enhances the game’s experience</li>
+                    </ul>
+                </div>
+              </div>
 </section>
 
-<!-- Wrapper -->
-<div id="wrapper">
+    <!-- About Section -->
+<about>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-4 text-center">
+                <img class="aboutimage" src= "/assets/img/plastic_fern_studios_logo_for_light_bg-small.png" width = 300px alt = "Plastic Fern Logo">
+              </div>
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-heading">Who We Are</h2>
+                    <img src= "/assets/img/vine.png" height = 30px>
+                    <br>
+                    <br>
+                    <div class="text-left">
+                      <p class="large"><strong>Plastic Fern</strong> is a multi-faceted studio that provides tools, insights, and deliverables to help you
+ship your game. From porting to release management, audio and QA, our veteran team has vast
+experience across nearly all platforms, and understands the intricacies involved with launch.
+We believe in building relationships collaborative with our clients, fostering clear and honest
+communication while saving you time, money, mistakes, and hassle.</p>
+                    </div>
+                </div>
 
-<!-- Intro -->
-<section id="intro" class="wrapper style1 fullscreen fade-up">
-	<div class="inner">
-		<a><img src="images/logo.png" alt="plastic fern studios logo" data-position="center center" /></a>
-		<h1>Plastic Fern Studios</h1>
-		<p>We’re experts in what you need to release your game.</p>
-		<p></p>
-		<p>From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game.
-</p>
-		<ul class="actions">
-			<li><a href="#one" class="button scrolly">Learn more</a></li>
-		</ul>
-	</div>
-</section>
+            </div>
+    </section>
+    </about>
 
-<!-- One -->
-<section id="one" class="wrapper style2 spotlights">
-	<section>
-		<a><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Development Services You Need</h2>
-				<p>We are Plastic Fern Studios, an indie development and dev services studio based in San Diego! We help studios succeed in releasing their games and navigating those processes.</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Experience You Deserve</h2>
-				<p>Plastic Fern Studios was started by Jay Fernandes, with everyone having over 10 years industry experience and 30+ shipped titles. Our team members' past experience can be seen in projects created by The Behemoth, Supergiant Games, Campo Santo, Fullbright, Edmund McMillen, and many others.</p>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>We're Here to Help</h2>
-				<p>Our passion for our work and the player's experience is the driving force in helping you achieve your game’s full vision. Our services currently include Porting, Release Management, QA, and all things related to audio including SFX, music production, and implementation.</p>
-			</div>
-		</div>
-	</section>
-	<section id="four" class="wrapper style2 spotlights">
-	<section>
-		<a><img src="images/PreviousGamesweWorkedOn.jpg" alt="" data-position="25% 25%" /></a>
-		<div class="content">
-			<div class="inner">
-				<h2>Our Clients</h2>
-				<p>We love working on great games with great teams! See what they have to say about us: </p>
-				<ul>
-				<li>The Plastic Fern folks are amazingly thorough, precise, and flexible. We've been super impressed! <b>- Jamie Cheng, Founder, Klei Entertainment</b></li>
-					<li>We worked with Plastic Fern Studios at the end of EarthNight’s dev process and really wish we had known about them sooner. They helped us port to Switch, finalize PlayStation 4 and Steam builds and optimize the entire game... they seemed like members of the team who had been working in the project for years after only a few weeks. On top of clearly being technical wizards, the team was a pleasure to work with. We will unquestionably be using their services for future projects. <b>-Rich Siegel, Founder, Cleaversoft</b>
-</li>
-					<li>Plastic Fern provides highly experienced, intelligent, and responsive testers.  They jump right into the communication tools / databases our team uses and provide daily communication, giving our team with the support we need, on demand. <b>-Gavin Simon, Co-Founder, Supergiant Games</b></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section>
+    <!-- About Section -->
+<about>
+    <section id="values">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Values</h2>
+                    <img src= "/assets/img/vine.png" height = 30px>
+                    <br>
+                    <br>
+                </div>
+            </div>
+                    <div class="row">
+                      <div class="col-lg-4 centerval">
+                      <div class="col-md-3">
+                        <i class="fa fa-users fa-3x" aria-hidden="true" height = "100px" style="color:#aac696;"></i>
+                      </div>
+                      <div class="col-md-9">
+                              <p class="text-values">Collaboration:</p>
+                              <p class="text-secondary">We work with you to understand the best
+                                solutions for your game, and communicate those clearly to help
+                                maximize time and budget.</p>
+                      </div>
+                      </div>
+                      <div class="col-lg-4 centerval">
+                      <div class="col-md-3">
+                        <i class="fa fa-gamepad fa-4x" aria-hidden="true" height = "100px" style="color:#aac696;"></i>
+                      </div>
+                      <div class="col-md-9">
+                              <p class="text-values">User Experience First:</p>
+                              <p class="text-secondary">We believe in looking at the game from a holistic lens, ensuring
+    that our work bolsters the authentic player experience you’re looking to create.</p>
+                      </div>
+                      </div>
+                      <div class="col-lg-4 centerval">
+                      <div class="col-md-3">
+                        <i class="fa fa-eye fa-4x" aria-hidden="true" height = "100px" style="color:#aac696;"></i>
+                      </div>
+                      <div class="col-md-9">
+                              <p class="text-values">Transparency:</p>
+                              <p class="text-secondary">An honest relationship is paramount to success. We will always be honest
+    with you and with ourselves about timelines, concerns, or questions that arise.</p>
+                      </div>
+                      </div>
+                      </div>
+                      <br>
+                      <br>
+                      <div class="row">
+                        <div class="col-lg-6 centerval">
+                        <div class="col-md-3">
+                          <i class="fa fa-flask fa-4x" aria-hidden="true" height = "100px" style="color:#aac696;"></i>
+                        </div>
+                        <div class="col-md-9">
+                                <p class="text-values">Working on Projects We Believe In:</p>
+                                <p class="text-secondary">We know that if we work on games, and with
+      companies we believe in you’ll get our best work product. We’re particularly passionate
+      about games and companies that bolster underrepresented voices.</p>
+                        </div>
+                        </div>
+                        <div class="col-lg-6 centerval">
+                        <div class="col-md-3">
+                          <i class="fa fa-smile-o fa-4x" aria-hidden="true" height = "100px" style="color:#aac696;"></i>
+                        </div>
+                        <div class="col-md-9">
+                                <p class="text-values">Employee Well-Being:</p>
+                                <p class="text-secondary">We’re firmly against crunch culture and know that our employees
+      deserve to be compensated fairly for the work they do in order to create a culture we
+      believe in and provide our best work possible.</p>
+                        </div>
+                        </div>
+                      </div>
+                  </div>
+    </section>
+    </about>
 
-<!-- Two -->
-<section id="two" class="wrapper style3 fade-up">
-	<div class="inner">
-		<h1>What we do</h1>
-		<p>From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game. Reach out to us if you need something not listed or have questions!</p>
-		<div class="features">
-			<section>
-				<span class="icon major fa-flag checkered"></span>
-				<h3>Release Management</h3>
-				<ul>
-				<li>A step-by-step process to ensure you get through cert on almost any platform</li>
-					<li>Getting your build packaged and ready to pass compliance</li>
-					<li>A vast understanding of timelines and requirements</li>
-					<li>Saves you time, brainpower, and mistakes</li>
-				</ul>
-			</section>
-			<section>
-				<span class="icon major fa-gamepad"></span>
-				<h3>Porting</h3>
-				<ul>
-					<li>Programming and getting your build ready on almost any platform</li>
-					<li>A one-stop-shop integrated team</li>
-					<li>Meets and exceeds timelines to get you to your goal</li>
-				</ul>
-			</section>
-			<section>
-				<span class="icon major fa-bug"></span>
-				<h3>QA</h3>
-				<ul>
-					<li>PS4™, Xbox One, Nintendo Switch, iOS, and Steam PC/Mac Platforms</li>
-					<li>Premium testing with a high quality bar</li>
-					<li>A diverse and experienced team that immerses themselves in you game for a more holistic perspective</li>
-					<li>Understanding and communicating deadlines, needs, and requirements for each platform</li>
-				</ul>
-			</section>
-			<section>
-				<span class="icon major fa-headphones"></span>
-				<h3>Audio</h3>
-				<ul>
-					<li>Our team deeply immerses ourselves in every project, looking at it from an integrated lens and giving you audio that fits your game's needs</li>
-					<li>A strong background in usability and game design, which ensures audio that enhances the player's experience</li>
-				</ul>
-			</section>
-		</div>
-	</div>
-</section>
+    <!-- Clients Aside -->
+    <section id ="clients">
+        <div class="container">
+          <div class="row text-centered">
+            <h2 class="section-heading">Clients</h2>
+              <img class="text-centered" src= "/assets/img/vine.png" height = 30px>
+          </div>
+          <br>
+          <!-- Desktop carousel -->
+          <div class="row desktopcarousel display-flex">
+            <div class="col-md-12">
+              <div class="carousel slide" id="myCarousel">
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class=row>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"><i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  They seemed like members of the team who had been working in the project for years after only a few weeks. On top of being technical wizards, the team was also a pleasure to work with. We will unquestionably be using their services for future projects.</p>
+                        <p class="large">Rich Siegel, Founder <br> <i>Cleaversoft</i></p>
+                        <img src= "/assets/img/cleaversoft.png" class = "logo">
+                      </div>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  While Untitled Goose Game is all about chaos and causing problems, on the software side we wanted quite the opposite. Plastic Fern helped us feel confident that the Goose was polished and perfect, taking a huge weight off our collective shoulders.</p>
+                        <p class="large">Cabel Sasser, Co-founder<br> <i>Panic, inc.</i></p>
+                        <img src= "/assets/img/panic-logo.png" class = "logo" width="100px">
+                      </div>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  The Plastic Fern folks are amazingly thorough, precise, and flexible. We've been super impressed!</p>
+                        <p class="large">Jamie Cheng, Founder<br> <i>Klei Entertainment</i></p>
+                        <img src= "/assets/img/Klei.png" class = "logo">
+                      </div>
+                    </div>
+                  </div>
+                    <div class="item">
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Releasing your first commercial game is scary. Getting through console submission is scarier. I learned so much about proper QA and certification working with Plastic Fern, and I hope we never have to go through launching a game without them!</p>
+                        <p class="large">Corey Warning, Co-founder<br> <i>Rose City Games</i></p>
+                        <img src= "/assets/img/rosecitylogo.png" class = "logo">
+                      </div>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Plastic Fern provides highly experienced, intelligent, and responsive testers.  They jump right into the communication tools / databases our team uses and provide daily communication, giving our team with the support we need, on demand.</p>
+                        <p class="large">Gavin Simon, Co-founder<br> <i>Supergiant Games</i></p>
+                        <img src= "/assets/img/supergiantlogo.png" class = "logo">
+                      </div>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Plastic Fern was friendly and easy to work with. Their communication was helpful and provided different ways for us to approach the title. They ended up being a super high value for us!</p>
+                        <p class="large">Zach Johnson, Co-founder<br> <i>Space Mace Games</i></p>
+                        <img src= "/assets/img/logo-space-mace.png" class = "logo">
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Invaluable through the submission process for Vane and talented at finding bugs in the nooks and crannies. Thanks to their help, Vane passed PS4 submission on the first try and they were great at rolling with our irregular schedule. Given the chance, I'd hire Jay and his team in a heartbeat.</p>
+                        <p class="large">Matt Smith, Co-Founder<br> <i>Friend & Foe</i></p>
+                        <img src= "/assets/img/FriendAndFoe.jpg" class = "logo">
+                      </div>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Working with Plastic Fern was painless! I got detailed reports as I needed them and never felt out of the loop with the issues the team was finding. I liked their transparency in process, fair pricing, thorough testin, and open communication!</p>
+                        <p class="large">Dave Proctor, Producer<br> <i>Graffiti Games (Previous)</i></p>
+                        <img src= "/assets/img/graffitilogo.png" class = "logo">
+                      </div>
+                      <div class="col-xs-4 dividers client">
+                        <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i> They have more knowledge than any other studio I've worked with, allowing them to make better judgement calls and their results have led to the deepest level of trust I've ever built with a partner team.</p>
+                        <p class="large">Morgan Wren, QA/Production<br> <i>Supergiant Games (Previous)</i></p>
+                        <img src= "/assets/img/supergiantlogo.png" class = "logo">
+                      </div>
+                    </div>
+                </div>
+          <!-- add  more items here -->
+              </div>
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left fa-2x"></i></a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right fa-2x"></i></a>
+                </div>
+                </div>
+                <!-- Mobile carousel -->
+                <div class="row mobilecarousel">
+                  <div class="carousel"
+                    data-flickity='{ "wrapAround": true }'>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"><i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  They seemed like members of the team who had been working in the project for years after only a few weeks. On top of being technical wizards, the team was also a pleasure to work with. We will unquestionably be using their services for future projects.</p>
+                      <p class="large">Rich Siegel, Founder <br> <i>Cleaversoft</i></p>
+                      <img src= "/assets/img/cleaversoft.png" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  While Untitled Goose Game is all about chaos and causing problems, on the software side we wanted quite the opposite. Plastic Fern helped us feel confident that the Goose was polished and perfect, taking a huge weight off our collective shoulders.</p>
+                      <p class="large">Cabel Sasser, Co-founder<br> <i>Panic, inc.</i></p>
+                      <img src= "/assets/img/panic-logo.png" class = "logo" width="100px">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  The Plastic Fern folks are amazingly thorough, precise, and flexible. We've been super impressed!</p>
+                      <p class="large">Jamie Cheng, Founder<br> <i>Klei Entertainment</i></p>
+                      <img src= "/assets/img/Klei.png" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Releasing your first commercial game is scary. Getting through console submission is scarier. I learned so much about proper QA and certification working with Plastic Fern, and I hope we never have to go through launching a game without them!</p>
+                      <p class="large">Corey Warning, Co-founder<br> <i>Rose City Games</i></p>
+                      <img src= "/assets/img/rosecitylogo.png" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Plastic Fern provides highly experienced, intelligent, and responsive testers.  They jump right into the communication tools / databases our team uses and provide daily communication, giving our team with the support we need, on demand.</p>
+                      <p class="large">Gavin Simon, Co-founder<br> <i>Supergiant Games</i></p>
+                      <img src= "/assets/img/supergiantlogo.png" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Plastic Fern was friendly and easy to work with. Their communication was helpful and provided different ways for us to approach the title. They ended up being a super high value for us!</p>
+                      <p class="large">Zach Johnson, Co-founder<br> <i>Space Mace Games</i></p>
+                      <img src= "/assets/img/logo-space-mace.png" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Invaluable through the submission process for Vane and talented at finding bugs in the nooks and crannies. Thanks to their help, Vane passed PS4 submission on the first try and they were great at rolling with our irregular schedule. Given the chance, I'd hire Jay and his team in a heartbeat.</p>
+                      <p class="large">Matt Smith, Co-Founder<br> <i>Friend & Foe</i></p>
+                      <img src= "/assets/img/FriendAndFoe.jpg" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i>  Working with Plastic Fern was painless! I got detailed reports as I needed them and never felt out of the loop with the issues the team was finding. I liked their transparency in process, fair pricing, thorough testin, and open communication!</p>
+                      <p class="large">Dave Proctor, Producer<br> <i>Graffiti Games (Previous)</i></p>
+                      <img src= "/assets/img/graffitilogo.png" class = "logo">
+                    </div>
+                    <div class="carousel-cell">
+                      <p class="text-secondary"> <i class="fa fa-quote-right" aria-hidden="true" align=right" height = "100px" style="color:#2e2e2d;"></i> They have more knowledge than any other studio I've worked with, allowing them to make better judgement calls and their results have led to the deepest level of trust I've ever built with a partner team.</p>
+                      <p class="large">Morgan Wren, QA/Production<br> <i>Supergiant Games (Previous)</i></p>
+                      <img src= "/assets/img/supergiantlogo.png" class = "logo">
+                    </div>
+                  </div>
+                </div>
+              </div>
+  </section>
 
-<!-- Three -->
-<section id="three" class="wrapper style1 fade-up">
-	<div class="inner">
-		<h2>Get in touch</h2>
-		<p>Let's talk about your next project, help you finish out a current one, or chat about what we can help your game with!</p>
-		<div class="split style1">
-			<section>
-				<form method="post" action="https://formspree.io/info@plasticfernstudios.com">
-					<div class="field half first">
-						<label for="name">Name</label>
-						<input type="text" name="name" id="name" />
-					</div>
-					<div class="field half">
-						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
-					</div>
-					<div class="field">
-						<label for="message">Message</label>
-						<textarea name="message" id="message" rows="5"></textarea>
-					</div>
-					<ul class="actions">
-						<li><a href="" class="button submit">Send Message</a></li>
-					</ul>
-				</form>
-			</section>
-			<section>
-				<ul class="contact">
-					<li>
-						<h3>Address</h3>
-						<span>1501 India St 103-79<br />
-						San Diego, CA 92101<br />
-						USA</span>
-					</li>
-					<li>
-						<h3>Email</h3>
-						<a href="mailto:info@plasticfernstudios.com">info@plasticfernstudios.com</a>
-					</li>
-					<li>
-						<h3>Social</h3>
-						<ul class="icons">
-							<li><a href="https://www.twitter.com/jaymfernandes" class="fa-twitter"><span class="label">Twitter</span></a></li>
-						</ul>
-					</li>
-				</ul>
-			</section>
-		</div>
-	</div>
-</section>
-</section></div>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+          <div class="row portheader">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Portfolio</h2>
+                  <img src= "/assets/img/vine.png" height = 30px>
+                  <br>
+                  <br>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://goose.game/"><img src= "/assets/img/UGG.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://store.steampowered.com/app/1062140/Garden_Story/"><img src= "/assets/img/gardenstory.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.cleaversoft.com/"><img src= "/assets/img/earthnight.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.klei.com/games/hot-lava"><img src= "/assets/img/hotlava.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://apps.apple.com/us/app/tales-of-memo/id1465626707"><img src= "/assets/img/talesofmemo.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="http://genesisnoirgame.com/"><img src= "/assets/img/genesisnoir.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.klei.com/games/griftlands"><img src= "/assets/img/griftlands.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.supergiantgames.com/games/hades/"><img src= "/assets/img/hades.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://store.steampowered.com/app/858530/Cat_Lady/"><img src= "/assets/img/catlady.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://store.steampowered.com/app/755470/The_World_Next_Door/"><img src= "/assets/img/twnd.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://store.steampowered.com/app/1148650/The_Legend_of_BumBo/"><img src= "/assets/img/bumbo.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://store.steampowered.com/app/712640/Dont_Starve_Hamlet/"><img src= "/assets/img/dshamlet.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://gonehome.game/"><img src= "/assets/img/gonehome.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.talegames.com/"><img src= "/assets/img/faeland.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.klei.com/games/invisible-inc"><img src= "/assets/img/invisibleincp.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://subsetgames.com/itb.html"><img src= "/assets/img/intothebreach.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://www.klei.com/games/mark-ninja/age"><img src= "/assets/img/motn.jpg" class ="port_img"></a>
+
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="https://spacemacegames.com/"><img src= "/assets/img/joggernauts.jpg" class ="port_img"></a>
+
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="http://www.13amgames.com/"><img src= "/assets/img/doublecross.jpg" class ="port_img"></a>
+            </div>
+            <div class="col-md-3 col-xs-6 portfolio">
+              <a href="http://www.friendandfoegames.com/vane"><img src= "/assets/img/vane.jpg" class ="port_img"></a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact Us</h2>
+                    <img src= "/assets/img/vine.png" height = 30px>
+                    <br>
+                    <br>
+                    <p class="secondary">Let's talk about your next project, help you finish out a current one, or chat about what we can help your game with!</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="form-style-6 text-center">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/info@plasticfernstudios.com" method="POST">
+              <fieldset id="fs-frm-inputs">
+                <label class="text-left" for="full-name">Your Name</label>
+                <br>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                <br>
+                <label for="email-address">Email Address</label>
+                <br>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea rows="5" name="message" id="message" placeholder="Tell us what you need!" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+              </fieldset>
+              <div id="sendform" class=" animated pulse">
+              <input type="submit" value="SEND">
+              </div>
+            </form>
+            </div>
+        </div>
+    </section>
+
+      <footer>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <i class="fa fa-paint-brush"></i> <p> Art by Rachel Tiu</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        
+                        <li><a href="http://twitter.com/jaymfernandes"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        
+                        <li><a href="mailto:info@plasticfernstudios.com"><i class="fa fa-envelope"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Plastic Fern Studios 2020</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/agency.js"></script>
+
+    <!-- Mobile carousel JavaScript -->
+    <script src="/js/flickity.pkgd.min.js"></script>
 
 
-
-<!-- Footer -->
-<footer id="footer" class="wrapper style1-alt">
-	<div class="inner">
-		<ul class="menu">
-			<li>&copy; Plastic Fern Studios LLC. 2018. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
-	</div>
-</footer>
-
-<!-- Scripts -->
-<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
-<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
-<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
-<script src="http://localhost:4000/assets/js/skel.min.js"></script>
-<script src="http://localhost:4000/assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="http://localhost:4000/assets/js/main.js"></script>
-</body>
+    </body>
 </html>

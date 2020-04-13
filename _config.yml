@@ -1,39 +1,16 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+url: "https://plasticfernstudios.github.io"
 
 # Site settings
 title: Plastic Fern Studios
-email: info@plasticfernstudios.com
-description: QA, Audio, UX, and Management services for videogames
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://plasticfernstudios.github.io" # the base hostname & protocol for your site
+description: "We’re experts in what you need to release your game. From porting to release management, our experienced team provides personalized and premium skills, insights, and deliverables to demystify the process of launching your game."
 
-# Social settings
-500px_url: 
-facebook_url: 
-github_url: 
-gitlab_url: 
-googleplus_url: 
-instagram_url: 
-linkedin_url: 
-pinterest_url: 
-slack_url: 
-twitter_url: https://twitter.com/jaymfernandes
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jaymfernandes
+  - title: envelope
+    url: mailto:info@plasticfernstudios.com
 
 # Build settings
 markdown: kramdown
-
-# Plugin: jekyll-seo-tag
-twitter:
-  username: jaymfernandes
-# Add one or more of the following
-facebook:
-  app_id: 
-  publisher: 
-  admins: 
-logo: source:"images/fav.png"
-google_site_verification: 
+permalink: pretty
