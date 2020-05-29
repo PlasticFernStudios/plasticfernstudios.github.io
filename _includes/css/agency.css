@@ -3,6 +3,85 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ @media(min-width:768px) {
+div.valuespad{
+  padding-bottom:0px;
+  }
+  div.valuespad2{
+    padding-bottom:50px;
+    }
+}
+   @media(max-width:767px) {
+div.valuespad{
+  padding-bottom:20px;
+  }
+}
+
+
+ @media(min-width:768px) {
+img.divider1{
+  margin-top: -30px;
+}
+}
+
+img.divider1{
+  margin-top: -30px;
+  height:50px;
+}
+
+@media(min-width:768px) {
+img.divider2{
+  display:inline-block;
+  margin-top: -15px;
+}
+}
+@media(max-width:767px) {
+img.divider2{
+  display:inline-block;
+  height:30px;
+  overflow: visible;
+}
+}
+@media(min-width:768px) {
+h2.divider2{
+  display:inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+}
+
+h2.divider2{
+  display:inline-block;
+}
+
+@media(min-width:768px) {
+img.divider3{
+  margin-top: -15px;
+  height:80px;
+}
+}
+
+@media(max-width:767px) {
+img.divider3{
+  margin-top: -15px;
+  display:inline-block;
+  height:60px;
+  overflow: visible;
+}
+}
+
+@media(min-width:768px) {
+h2.divider3{
+  display:inline-block;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+}
+
+h2.divider3{
+  display:inline-block;
+}
+
 section#bottomsection{
   background-color:#fff;
   padding-top: 20px;
@@ -106,12 +185,12 @@ padding-left: 100px;
 }
 
 .servblock {
-  height:500px;
+  height:550px;
   }
 
 @media(min-width:768px) {
 .servblock {
-  height:710px;
+  height:760px;
   }
 }
 
@@ -407,6 +486,15 @@ a.large:hover{
   }
 }
 
+img.values{
+  display:block;
+  margin:0;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  height:80px;
+}
+
  section#values .col-md-3, .col-md-9 {
       display:inline-block;
       vertical-align:middle;
@@ -422,9 +510,6 @@ a.large:hover{
    section#values {
      padding-top:40px;
      padding-bottom:40px;
-    }
-    .centerval{
-      text-align:center;
     }
 }
 
@@ -607,6 +692,17 @@ ul.noindent {
     text-align: left;
 }
 
+ul.noindent li{
+  padding: 5px 0px;
+}
+
+.logobg {
+    background-image: url("{{site.baseurl}}/assets/img/plant.png");
+    background-repeat: no-repeat;
+    background-size: 900px auto;
+    background-position: calc(100% - 32em) calc(100% + 6em);
+}
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
@@ -618,7 +714,7 @@ ul.noindent {
 .text-values{
     font-family: {{ site.data.template.font.secondary}};
     font-weight: bold;
-    font-size:20px;
+    font-size:25px;
   }
 
 p {
