@@ -781,11 +781,24 @@ ul.noindent li{
   padding: 5px 0px;
 }
 
+
+@media(min-width:1200px) {
 .logobg {
     background-image: url("{{site.baseurl}}/assets/img/plant.png");
     background-repeat: no-repeat;
     background-size: 900px auto;
-    background-position: calc(100% - 32em) calc(100% + 6em);
+    background-position: -200px 0px;
+  }
+}
+
+@media (min-width:1600px){
+.logobg {
+  background-image: url("{{site.baseurl}}/assets/img/plant.png");
+  background-repeat: no-repeat;
+  background-size: 900px auto;
+  background-position: 200px 0px;
+  overflow: hidden;
+}
 }
 
 .text-muted {
