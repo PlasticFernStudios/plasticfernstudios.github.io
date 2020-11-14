@@ -33,13 +33,13 @@ img.divider1{
 img.divider2{
   display:inline-block;
   margin-top: -15px;
+  visibility:visible;
 }
 }
 @media(max-width:767px) {
 img.divider2{
-  display:inline-block;
-  height:30px;
-  overflow: visible;
+  display:none;
+  visibility:hidden;
 }
 }
 @media(min-width:768px) {
@@ -872,6 +872,42 @@ a.active {
     color: #{{ site.data.template.color.secondary }};
 }
 
+a.jobs,
+a.jobs:hover,
+a.jobs:focus,
+a.jobs:active,
+a.jobs.active {
+}
+
+a.jobs {
+    color: #{{ site.data.template.color.secondary }};
+}
+
+a.jobs:hover,
+a.jobs:focus,
+a.jobs:active,
+a.jobs.active {
+    color: #ffffff;
+}
+
+
+a.jobs,
+a.jobs:hover,
+a.jobs:focus,
+a.jobs:active,
+a.jobs.active {
+}
+
+a.posts {
+    color: #{{ site.data.template.color.secondary }};
+}
+
+a.posts:hover,
+a.posts:focus,
+a.posts:active,
+a.posts.active {
+    color: #aac676;
+}
 
 h1,
 h2,
@@ -882,6 +918,9 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.heavy }};
     font-weight: 700;
+}
+h1.center{
+  text-align: center;
 }
 
 img.centered {
@@ -1267,6 +1306,11 @@ section#portfolio {
     background-color: #fff;
   }
 }
+section#post {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #aac676;
+  }
 
 section#clients {
       padding-top: 50px;
@@ -1337,11 +1381,32 @@ section#qualityassurance{
   padding-bottom:0px;
   background-color: #aac676;
 }
+section#resources1{
+  padding-top:0px;
+  padding-bottom:0px;
+  background-color: #aac676;
+}
+section#resources2{
+  padding-top:75px;
+  padding-bottom:75px;
+  background-color: #ffffff;
+}
 
 section#audio{
   padding-top:75px;
   padding-bottom:0px;
   background-color: #ffffff;
+}
+
+section#jobposting{
+  padding-top:25px;
+  padding-bottom:75px;
+  background-color: #ffffff;
+}
+section#jobintro{
+  padding-top:75px;
+  padding-bottom:50px;
+  background-color: #aac676;
 }
 
 @media(max-width:767px) {
@@ -1357,12 +1422,25 @@ section h2.section-heading {
     letter-spacing: 1px;
     text-align: center;
 }
+section h2.section-heading-first {
+    margin-top: 75px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
 section h2.section-heading-left {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
     letter-spacing: 1px;
     text-align: left;
+}
+section h3.section-heading {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 @media(max-width:767px) {
@@ -1372,6 +1450,19 @@ section h2.section-heading-left {
     font-size: 40px;
     letter-spacing: 1px;
     text-align: center;
+ }
+ section h2.section-heading-first {
+     margin-top: 50px;
+     margin-bottom: 15px;
+     font-size: 40px;
+     letter-spacing: 1px;
+     text-align: center;
+ }
+ section h3.section-heading {
+     margin-top: 50px;
+     margin-bottom: 15px;
+     letter-spacing: 1px;
+     text-align: center;
  }
 }
 
