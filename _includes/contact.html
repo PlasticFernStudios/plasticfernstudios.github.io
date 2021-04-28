@@ -51,7 +51,14 @@
                 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
-
+<script>
+$(document).ready(function() {
+  var $sub = $("#_subject");
+  $("#email-address").on("input", function() {
+    $sub.val("Contact Form Submission (" + $(this).val() + ")");
+  });
+});
+</script>
 
 <style type="text/css">
 	#mc_embed_signup{background:#aac676; clear:left; font:14px {{ site.data.template.font.secondary }}; width:100%;}
