@@ -43,14 +43,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>
-    $(document).ready(function() {
-    	var $sub = $("#_subject");
-    	$("#email").on("input", function() {
-    		$sub.val("Contact Form Submission (" + $(this).val() + ")");
-    	});
-    });
-    </script>
+
 </head>
 
 
@@ -602,7 +595,14 @@ communication while saving you time, money, mistakes, and hassle.</p>
                 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
-
+<script>
+$(document).ready(function() {
+  var $sub = $("#_subject");
+  $("#email-address").on("input", function() {
+    $sub.val("Contact Form Submission (" + $(this).val() + ")");
+  });
+});
+</script>
 
 <style type="text/css">
 	#mc_embed_signup{background:#aac676; clear:left; font:14px Dosis, "Helvetica Neue", Helvetica, Arial, sans-serif; width:100%;}
