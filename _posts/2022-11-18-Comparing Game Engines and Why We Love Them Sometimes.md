@@ -2,7 +2,7 @@
 layout: post
 title:  "Comparing Game Engines and Why We Love Them (Sometimes)"
 excerpt_separator: <!--more-->
-permalink: /resources/:title
+permalink: /resources/Comparing-Game-Engines-and-Why-We-Love-Them-Sometimes
 
 ---
 ![Engines](/assets/img/engines.png)

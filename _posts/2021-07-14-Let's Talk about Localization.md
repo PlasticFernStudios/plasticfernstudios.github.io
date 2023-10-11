@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Let's Talk about Localization!"
+title:  "Let's Talk About Localization!"
 excerpt_separator: <!--more-->
-permalink: /resources/:title
+permalink: /resources/Let's-Talk-About-Localization
 
 ---
 ![Localization Squirrels](/assets/img/Squirrelloc.png)
