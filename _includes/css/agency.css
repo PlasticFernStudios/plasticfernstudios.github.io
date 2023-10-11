@@ -539,6 +539,14 @@ a.large:hover{
  }
 }
 
+.blogimage {
+    display:block;
+    margin:auto;
+    height:auto;
+    max-width:15%;
+    padding-bottom: 3%;
+ }
+
 @media(max-width:767px) {
 .headerimage {
     display:inline-block;
@@ -550,7 +558,6 @@ a.large:hover{
   }
 }
 
-
 .aboutimage {
      display:inline-block;
      vertical-align:middle;
@@ -559,6 +566,7 @@ a.large:hover{
      height:auto;
      max-width:100%;
  }
+
  @media(max-width:767px) {
  .aboutimage {
       display:inline-block;
@@ -566,9 +574,10 @@ a.large:hover{
       margin-right:-4px;
       margin-top: 10%;
       height:auto;
-      max-width:40%;
+      max-width:30%;
       padding-bottom:30px;
   }
+
 }
 
 img.values{
@@ -824,6 +833,9 @@ p.large {
     font-size: 25px;
     text-align: left;
 }
+p.excerpt {
+    text-align: left;
+  }
 
 @media(max-width:767px) {
 p.large {
@@ -859,6 +871,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+
 }
 
 a {
@@ -901,12 +914,24 @@ a.jobs.active {
 a.posts {
     color: #{{ site.data.template.color.secondary }};
 }
+a.latest {
+
+    color: #{{ site.data.template.color.secondary }};
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.heavy }};
+    font-weight: 700;
+    display: table;
+    margin: 0;
+    text-algin: left;
+    font-size: 150%;
+
+}
 
 a.posts:hover,
 a.posts:focus,
 a.posts:active,
 a.posts.active {
-    color: #aac676;
+    color: #{{ site.data.template.color.muted }};
 }
 
 h1,
@@ -1309,7 +1334,7 @@ section#portfolio {
 section#post {
     padding-top: 150px;
     padding-bottom: 50px;
-    background-color: #aac676;
+    background-color: #ffffff;
   }
 
 section#clients {
@@ -1381,6 +1406,11 @@ section#qualityassurance{
   padding-bottom:0px;
   background-color: #aac676;
 }
+section#newsletter{
+  padding-top:0px;
+  padding-bottom:75px;
+  background-color: #aac676;
+}
 section#resources1{
   padding-top:0px;
   padding-bottom:0px;
@@ -1395,6 +1425,28 @@ section#resources2{
 section#audio{
   padding-top:75px;
   padding-bottom:0px;
+  background-color: #ffffff;
+}
+section#postshead{
+  padding-top:75px;
+  padding-bottom:0px;
+  background-color: #aac676;
+}
+section#latestpost{
+  padding-top:75px;
+  padding-bottom:50px;
+  background-color: #aac676;
+}
+section#newsletter{
+  padding-top:75px;
+  padding-bottom:50px;
+  padding-right:10%;
+  padding-left:10%;
+  background-color: #aac676;
+}
+section#otherposts{
+  padding-top:75px;
+  padding-bottom:50px;
   background-color: #ffffff;
 }
 
@@ -1578,7 +1630,7 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 50px 0;
     text-align: center;
     background-color: #{{ site.data.template.color.primary }};
 
@@ -1597,6 +1649,22 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
+}
+
+ul.posts {
+  display: table;
+  margin: 0 auto;
+  font-size: 150%;
+  list-style-position: inside;
+}
+
+ul.posts-left {
+  display: table;
+  margin: 0;
+  padding: 0;
+  font-size: 150%;
+  list-style-position: outside;
+  text-align: left;
 }
 
 ul.social-buttons {

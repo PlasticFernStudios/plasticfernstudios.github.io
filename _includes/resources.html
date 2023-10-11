@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top"> <img class="headerlogo" src= "{{site.baseurl}}/assets/img/plastic_fern_studios_logo_for_light_bg-small.png" alt = "Plastic Fern Logo"></a>
+            <a class="navbar-brand page-scroll" href="{{site.baseurl}}"> <img class="headerlogo" src= "{{site.baseurl}}/assets/img/plastic_fern_studios_logo_for_light_bg-small.png" alt = "Plastic Fern Logo"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,19 +19,22 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="{{site.baseurl}}/dev-services/">Dev Services</a>
+                  <a class="page-scroll" href="{{site.baseurl}}/#services">Services</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/#about">About Us</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="{{site.baseurl}}/jobs/">Jobs</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/#clients">Clients</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="{{site.baseurl}}/#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{site.baseurl}}/jobs/">Jobs</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="{{site.baseurl}}/resources/">Resources</a>
                 </li>
             </ul>
         </div>
@@ -42,47 +45,72 @@
 <!-- Resources section -->
 
 <resources>
-  <section id="resources1">
+  <section id="latestpost">
+    <div class="container">
 
-  <!-- Header -->
-  <header>
-    <div class= "logobg">
-      <div class="container">
-          <div class="intro-text">
-            <div class="row">
-              <div class="col-lg-4">
-                <!--css background fern is here-->
-              </div>
-              <div class="col-lg-8">
-                <div class="intro-heading2">
-                  Helpful Resources
-                </div>
-                <div class="intro-lead-in">Not just a blog, but a collection of interesting resources, articles, and insights to help make you more successful in making and shipping your games. </div>
-
-              </div>
-              </div>
-          </div>
-        </div>
-        <div>
-  </header>
-</section>
-<section id="resources2">
-  <div class="container">
-
-  <h1 class="center" >Latest Posts</h1>
-  <br>
-  <img class="divider1 text-centered" src= "{{site.baseurl}}/assets/img/vine_4_light_green.png" aria-hidden="true">
+      <div class="row pagehead">
+        <div class="col-lg-12 text-center">
+          <img class="blogimage"  src= "{{site.baseurl}}/assets/img/employee_well_being_500.png" aria-hidden="true">
+          <h2 class="section-heading">Latest Blog Post</h2>
+          <img src= "{{site.baseurl}}/assets/img/vine_4_light_green.png" height = 30px aria-hidden="true">
 <br>
+        </div>
+<br>           <div class="col-lg-12">
 
+<br>
+          {% for post in site.posts limit:1 %}
+              <a class="latest" href="{{ post.url }}">{{ post.title }}</a>
+             <p> {{ post.excerpt }}</p>
+             . . .
+             <br>
+             <a href="{{ post.url }}" class="page-scroll btn-xl">Read More!</a>
+          {% endfor %}
 
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <h2><a class="posts" href="{{ post.url }}">{{ post.title }}</a></h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+        <br>
+</div>
   </div>
-  </section>
+
+   </section>
+   <section id="otherposts">
+     <div class="container">
+       <div class="col-lg-12 text-center">
+       <img class="blogimage" src= "{{site.baseurl}}/assets/img/logo_cute_PF.png" aria-hidden="true">
+           <h2 class="section-heading">Other Blog Posts</h2>
+           <img src= "{{site.baseurl}}/assets/img/vine_1_green.png" height = 30px aria-hidden="true">
+<br>
+<br>
+<br>
+           <ul class= "posts-left">
+             {% for post in site.posts %}
+             <li>
+              <a class="posts" href="{{ post.url }}">{{ post.title }}</a>
+             </li>
+             {% endfor %}
+           </ul>
+       </div>
+        </div>
+    </section>
+
+   <section id="timeline">
+     <div class="container">
+   <div class="row">
+     <div class="col-md-4 col-lg-push-8 subtext">
+       <h2 class="divider2 section-heading pagehead" style= "color:white";>What Does a General Timeline Look Like?</h2>
+       <p class="med" style= "color:white";>
+         We've created a general timeline to help developers plan ahead and schedule accordingly for what they might need. Our services can start as early as the planning stages with developers, all the way through post-release and everything in between.
+         <br>
+         <br>
+Our flexibility and vast experience can be helpful for short-term or well as long-term needs, to ensure your game gets to where it needs to be-- in the hands of the players!         </p>
+       <br>
+       <br>
+       <div id = "timeline-dl" class="btn-centered">
+         <a href="{{site.baseurl}}/assets/docs/Plastic-Fern-Development-Timeline.pdf" class="btn-xl">Download this Chart!</a>
+       </div>
+     </div>
+     <div class="col-md-8 col-lg-pull-4 subtext">
+       <img class="centered tlchart pagehead" src= "{{site.baseurl}}/assets/img/timeline_draft.png" alt = "What release management is and isn't" width="1000px">
+     </div>
+   </div>
+   </div>
+</section>
 </resources>
