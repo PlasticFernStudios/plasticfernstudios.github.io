@@ -5,7 +5,7 @@ excerpt_separator: <!--more-->
 permalink: /resources/Let's-Talk-About-Localization
 
 ---
-![Localization Squirrels](/assets/img/Squirrelloc.png)
+![Localization Squirrels](/assets/img/SquirrelLoc.png)
 <br />
 
 So you want to make sure that players who speak other languages and live all around the world can play your game! Even if you’ve already created a system within the game to use translated text, the costs for this can balloon quite a bit depending on 3 main factors:
