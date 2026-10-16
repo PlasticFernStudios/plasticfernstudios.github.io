@@ -6,10 +6,8 @@ description: "We’re experts in what you need to release your game. From portin
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jaymfernandes
   - title: envelope
-    url: mailto:info@plasticfernstudios.com
+    url: mailto:inquire@plasticfernstudios.com
 
 # Build settings
 markdown: kramdown
